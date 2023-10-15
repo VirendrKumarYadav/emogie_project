@@ -1,0 +1,42 @@
+input {
+    font-size: 100%;
+    border-radius: 2pxpx;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    margin: 8px;
+  }
+  
+  input {
+    cursor: pointer;
+  }
+
+  
+  .emoji {
+    font-size: 300%;
+    width: 8rem;
+    max-width: 8rem;
+  }
+  
+  .aliases {
+    text-transform: capitalize;
+    font-size: 125%;
+  }
+  
+  .desc {
+    font-size: 125%;
+  }
+  
+  .desc::first-letter {
+    text-transform: uppercase;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr, td {
+    border-top: 1px solid rgb(3, 46, 47);
+    border-bottom: 1px solid  rgb(3, 46, 47);
+  }
